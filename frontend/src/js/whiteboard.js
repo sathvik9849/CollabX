@@ -251,7 +251,7 @@ const Whiteboard = {
     };
 
     setCanvasSize(canvas, 2000);
-    window.addEventListener('resize', setCanvasSize(canvas, 2000));
+    window.addEventListener('resize', () => setCanvasSize(canvas, 2000));
 
     function getPos(event) {
       const bounds = canvas.getBoundingClientRect();

@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kumar Shashank",
+  "author": "Sathvik",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.74.0",

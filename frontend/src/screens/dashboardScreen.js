@@ -17,8 +17,8 @@ const dashboardScreen = {
     render_dashboard_nav: () => {
         const { name, email, isProfilePic, profileUrl } = getUserInfo();
         return `
-        <img src="images/ks_meet_logo.png" class="logo" alt="">
-        <a href="/" class="navbar-brand text-light">KS Meet</a>
+        <img src="images/collabx.png" class="logo" alt="">
+        <a href="/" class="navbar-brand text-light">CollabX</a>
         <span id="seperator">|</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -210,7 +210,7 @@ const dashboardScreen = {
                             <p><b>Name:</b> ${name}</p>
                             <p><b>Email:</b> ${email}</p>
                         </div>
-                        <di class="coupon-row">
+                        <div class="coupon-row">
                           <span id="cpnCode">${referralCode? referralCode:`NoC0DeR1G8T`}<img src="./images/copy.png" alt="🟨"></span>
                           <span id="cpnBtn">Referal Code</span>
                         </di>

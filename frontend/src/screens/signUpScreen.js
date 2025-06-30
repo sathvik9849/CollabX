@@ -206,7 +206,7 @@ const signUpScreen = {
 
         google.accounts.id.initialize({
             // replace your client id below
-            client_id: "884656024300-i92s36s4uj6cipooueq9re4b7gc13cel.apps.googleusercontent.com",
+            client_id: "652158918737-jbgf135pl564lib2n2fpefbeqgsapt9s.apps.googleusercontent.com",
             callback: handleCredentialResponse,
             auto_select: true,
             auto: true

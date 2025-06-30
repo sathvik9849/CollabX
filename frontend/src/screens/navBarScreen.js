@@ -26,8 +26,8 @@ const navBarScreen = {
         }
 
         return `
-        <img src="./images/ks_meet_logo.png" class="logo" alt="">
-        <a href="/" class="navbar-brand text-light">KS Meet</a>
+        <img src="./images/collabx.png" class="logo" alt="">
+        <a href="/" class="navbar-brand text-light">CollabX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

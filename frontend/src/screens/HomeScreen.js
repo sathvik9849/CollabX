@@ -5,7 +5,7 @@ const HomeScreen = {
         return `
         <div class="details d-flex">
             <div class="container1 ">
-                <h1>Welcome to <span style="color: #d001bb;">KS Meet</span>
+                <h1>Welcome to <span style="color: #d001bb;">CollabX</span>
                     <div class="contain">
                         <h1 class="h1style">Let's&nbsp;
                             <span class="txt-type" data-wait="2000"
@@ -15,7 +15,7 @@ const HomeScreen = {
                     </div>
                 </h1>
                 <hr>
-                <p style="font-size:20px;">KS Meet service is designed for secure personal meetings and making it free
+                <p style="font-size:20px;">CollabX is designed for secure personal meetings and making it free
                     for everyone to use.
                 </p>
                 <ul class="display-center justify-content-start meeting-handler" style="margin-top:5rem;">
@@ -24,14 +24,14 @@ const HomeScreen = {
                             class="btn btn-lg btn-outline-success text-light font-weight-bold display-center new-meeting"
                             style="background-color: #12530e;"><span><i
                                     class="inline-icon material-icons mr-2">video_call</i></span>New
-                            Meeting</buttton>
+                            Meeting</button>
                     </li>
                     <li class="enter-code">
-                        <buttton class="btn btn-lg btn-outline-danger text-dark font-weight-bold display-center"
+                        <button class="btn btn-lg btn-outline-danger text-dark font-weight-bold display-center"
                             style="background-color: rgb(255, 255, 255);">
                             <span><i class="inline-icon material-icons mr-2">keyboard</i></span>
                             <input class="enter_code" type="text" maxlength="11" placeholder="Enter a Code" style="border: none;">
-                        </buttton>
+                        </button>
                     </li>
                     <li class="text-light font-weight-bold cursor_pointer join-action">
                         Join

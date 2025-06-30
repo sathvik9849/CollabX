@@ -591,7 +591,7 @@ var MyApp = () => {
   }
 
   function event_process_for_signalling_server(avatar_color) {
-    socket = io.connect();
+    socket = io.connect('https://collabx-backend-pxhm.onrender.com', { transports: ['websocket'] })
 
     var SDP_function = function (data, to_connid) {
       socket.emit('SDPProcess', {
