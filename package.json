@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/index.js",
-    "build": "rm -rf dest && babel backend -d dist",
-    "serve": "node dist/index.js",
-    "heroku-prebuild": "cd frontend && npm install --dev",
-    "heroku-postbuild": "npm run build && cd frontend && npm install && npm run build"
+    "start": "npm run build && npm run serve",
+    "build": "rm -rf dist && babel backend -d dist",
+    "serve": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
