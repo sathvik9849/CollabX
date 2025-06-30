@@ -32,8 +32,14 @@ server.use(passport.initialize());
 passport.use('google',googleStrategy)
 passport.use('jwtappuser', jwtStrategyForAppUser);
 
-server.use(express.static(path.join(__dirname, '/../frontend/src/')));
-server.use(favicon(path.join(__dirname, '/../frontend/src/favicon/favicon.ico')));
+if (process.env.NODE_ENV === 'development') {
+  server.use(express.static(path.join(__dirname, '/../frontend/src/')));
+  server.use(favicon(path.join(__dirname, '/../frontend/src/favicon/favicon.ico')));
+}
+
+
+// server.use(express.static(path.join(__dirname, '/../frontend/src/')));
+// server.use(favicon(path.join(__dirname, '/../frontend/src/favicon/favicon.ico')));
 
 server.use('/', routes);
 
