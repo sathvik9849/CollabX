@@ -35,13 +35,7 @@ const navBarScreen = {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="/about" class="nav-link">At a glance</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/magic" class="nav-link">How it works</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/prices" class="nav-link">Plan and Price</a>
+                    <a href="/price.html" class="nav-link">Plan and Price</a>
                 </li>
             </ul>
             <ul class="navbar-nav mr-0">
